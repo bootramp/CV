@@ -54,16 +54,16 @@ h1 {
     max-width: 60%;
     max-height: 50%;
     position: absolute;
-    left: 240px;
-    top: 90px; 
+    left: 15%;
+    top: 13%; 
 }
 
 .cloud4-pos {
     max-width: 32%;
     max-height: 20%;
     position: absolute;
-    left: 1500px;
-    top: 90px; 
+    right: 5%;
+    top: 10%; 
 }
 
 .text-align {
