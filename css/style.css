@@ -51,16 +51,16 @@ h1 {
 }
 
 .cloud3-pos {
-    width: 620px;
-    height: 260px;
+    max-width: 60%;
+    max-height: 50%;
     position: absolute;
     left: 240px;
     top: 90px; 
 }
 
 .cloud4-pos {
-    width: 320px;
-    height: 140px;
+    max-width: 32%;
+    max-height: 20%;
     position: absolute;
     left: 1500px;
     top: 90px; 
