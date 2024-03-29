@@ -1,0 +1,99 @@
+body {
+    margin: 0px;
+    background-color: #b8e6e5;
+    text-align: center;
+    
+}
+.h {
+    position: relative;
+    top: 10px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    font-family: "Sacramento", cursive;
+    font-weight: 800;
+    font-size: 110px;
+}
+
+p {
+    font-family: "Kiwi Maru", serif;
+    font-size: 20px;
+
+}
+
+h1 {
+    color: #000000;
+}
+.carear-color {
+    color: #D74B76;
+}
+.top-container {
+    
+    margin: 0px;
+}
+
+.img{
+    max-width:100%;
+    max-height: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.cloud1-pos {
+    position: absolute;
+    left: 500px;
+    top: 170px;
+}
+
+.cloud2-pos {
+    position: absolute;
+    left: 1500px;
+    
+}
+
+.cloud3-pos {
+    max-width: 60%;
+    max-height: 50%;
+    position: absolute;
+    left: 240px;
+    top: 90px; 
+}
+
+.cloud4-pos {
+    max-width: 32%;
+    max-height: 20%;
+    position: absolute;
+    left: 1500px;
+    top: 90px; 
+}
+
+.text-align {
+    text-align: center;
+}
+
+.text-underlined {
+    text-decoration: underline;
+  }
+
+.bottom-container {
+    margin: 0;
+   
+}
+
+.footer-link {
+    margin: 3px;
+}
+
+.footer-img {
+    width: 48px;
+    height: 48px;
+}
+
+.profile-img {
+    width: 20%;
+    height: 20%;
+}
+
+h2 {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-size: 50px;
+}
