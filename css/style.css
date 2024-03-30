@@ -11,17 +11,18 @@ body {
     margin: 0 auto 0 auto;
     font-family: "Sacramento", cursive;
     font-weight: 800;
-    font-size: 110px;
+    font-size: 687.5%;
 }
 
 p {
     font-family: "Kiwi Maru", serif;
     font-size: 20px;
+    line-height: 2;
 
 }
 
 h1 {
-    color: #000000;
+    color: #3f9191;
 }
 .carear-color {
     color: #D74B76;
@@ -76,7 +77,7 @@ h1 {
 
 .bottom-container {
     margin: 0;
-   
+    background-color: antiquewhite;
 }
 
 .footer-link {
@@ -86,14 +87,100 @@ h1 {
 .footer-img {
     width: 48px;
     height: 48px;
+    /*filter: blur(0px);/*  تنظیم میزان تاری اولیه */
+    /*transition: filter 0.5s; /* اعمال انیمیشن تغییر فیلتر */
+    transition: transform 0.5s;
 }
 
 .profile-img {
-    width: 20%;
-    height: 20%;
+    width: 13%;
+    margin: 30px;
+ 
+}
+
+.elemnt-img {
+    width: 30%;
+    margin: auto;
 }
 
 h2 {
     font-family: "Edu NSW ACT Foundation", cursive;
     font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    /* font-size: 50px; */
+}
+
+.last-tip {
+    font-family: "Kiwi Maru", serif;
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 0;
+    filter: blur(2px);/*  تنظیم میزان تاری اولیه */
+    transition: filter 0.5s; /* اعمال انیمیشن تغییر فیلتر */
+}
+
+.last-tip:hover {
+    filter:blur(0px);
+}
+
+.lightning  {
+    color: #D74B76;
+    
+}
+
+.skill-row {
+    margin: 20px auto;
+    width: 70%;
+    text-align: left;
+}
+.footer-img:hover {
+    /* filter:blur(5px); */
+    transform: scale(1.2);
+}
+
+.linux {
+    float: left;
+    padding-right: 30px;
+    margin: auto;
+    padding-bottom: 20px;
+    position: relative;
+    top: 30px;
+}
+ hr {
+    display:block;
+    border-style: dotted none none;
+    color: #3f9191;
+    width: 20%;
+    border-width: 6px;
+    margin: 100px auto;
+}
+
+.contact-me{
+    padding: 30px;
+}
+
+.decr {
+    font-size: 15px;
+}
+
+.copyrght {
+    margin: 10px auto 0;
+}
+
+.circle-list {
+    list-style-type: circle;
+    margin: 0 300px;
+    font-family: "Kiwi Maru", serif;
+    font-size: 15px;
+}
+
+.disc-list {
+    list-style-type: disc;
+    font-family: "Kiwi Maru", serif;
+    font-size: 17px;
 }
